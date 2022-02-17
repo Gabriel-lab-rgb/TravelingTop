@@ -1,0 +1,14 @@
+header {
+    background-image: url("https://picsum.photos/id/1026/4621/3070");
+    height: 400px;
+    
+}
+
+
+
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,700;1,100&display=swap");
+$primary: #3cb4ab;
+$secundary: red;
+
+@import "/Proyecto/node_modules/bootstrap/scss/bootstrap.scss";
+@import "/Proyecto/node_modules/bootstrap/scss/containers"

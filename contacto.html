@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+  <title>Document</title>
+</head>
+
+<body>
+
+  <head>
+
+
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="#"><img src="/Proyecto/img/favicon.png" height="50"/></a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarScroll"
+          aria-controls="navbarScroll" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarScroll">
+          <ul class="navbar-nav me-auto my-2 my-lg-0 navbar-nav-scroll" style="--bs-scroll-height: 100px;">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="/Proyecto/index.html">Principal</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="/Proyecto/contacto.html">Contacto</a>
+            </li>
+
+          </ul>
+          <form class="d-flex">
+            <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+            <button class="btn btn-outline-success" type="submit">Search</button>
+          </form>
+        </div>
+      </div>
+    </nav>
+
+
+
+
+  </head>
+
+  <main class="d-flex flex-column justify-content-center align-items-center">
+
+    <div class="col-12  d-flex flex-column align-items-center p-5">
+      <h2 class="fw-bold">Contacto</h2>
+      <img src="https://bizmarketing.xyz/wp-content/uploads/2019/01/test.png " width="100px" height="100px">
+    <form action="https://formsubmit.co/grivote615@iesmartinezm.es" method="post" id="formulario" class="col-12  col-lg-6 needs-validation"  novalidate>
+
+
+
+
+      <div class="mb-3" id="formularioNombre">
+        <label for="exampleInputNombre1" class="form-label">Nombre </label>
+        <input type="Nombre" class="form-control" id="exampleInputNombre1" aria-describedby="emailHelp" required>
+        <div class="valid-feedback" id="correoValido"></div>
+      </div>
+
+
+
+
+      <div class="mb-3" id="formularioEmail">
+        <label for="exampleInputEmail1" class="form-label">Email </label>
+        <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+        <div class="valid-feedback" id="correoValido"></div>
+
+
+      </div>
+      <div class="mb-3" id="formularioMensaje">
+        <label for="exampleInputMensaje1" class="form-label">Mensaje</label>
+        <textarea type="text" class="form-control" id="exampleInputMensaje1"></textarea>
+        <div class="valid-feedback">
+          Looks good!
+        </div>
+        <div class="invalid-feedback">
+          Please choose a username.
+        </div>
+      </div>
+
+      <div class="mb-3 form-check" id="inputCheck">
+        <input type="checkbox" class="form-check-input" id="exampleCheck1">
+        <label class="form-check-label" for="exampleCheck1">Agree to terms and conditions </label>
+      </div>
+      <button type="submit" class="btn btn-primary" id="boton" data-toggle="alert">
+
+        Submit
+      </button>
+    </form>
+  </div>
+
+
+
+  
+  </main>
+
+
+  <footer class="p-5 bg-dark">
+
+    <div class="d-flex flex-column flex-lg-row">
+        <div class="d-flex flex-column justify-content-center  col-12 col-lg-3">
+            <h3 class="fw-bold text-white ">TravelingTop</h3>
+            <ul class="" style="display: block;">
+                <li><a href="#">Quiénes somos</a></li>
+                <li><a href="#">Prensa</a></li>
+                <li><a href="#">Sostenibilidad</a></li>
+
+
+            </ul>
+        </div>
+
+        <div class="d-flex flex-column justify-content-center  col-12  col-lg-3">
+            <h3 class="text-white fw-light">Inspiración</h3>
+            <ul class="">
+                <li><a href="#">Destinos</a></li>
+                <li><a href="#">Guías de viajes</a></li>
+            </ul>
+
+        </div>
+        <div class="d-flex flex-column justify-content-center  col-12  col-lg-3">
+            <h3 class="text-white fw-light">Trabaja con nosotros</h3>
+            <ul class="">
+                <li><a href="#">Proveedores</a></li>
+                <li><a href="#">Afiliados</a></li>
+                <li><a href="#">Agencias de viajes</a></li>
+                <li><a href="#">Alojamientos</a></li>
+                <li><a href="#">Empleo</a></li>
+            </ul>
+
+        </div>
+
+    </div>
+    </div>
+
+
+
+    </div>
+
+
+
+
+</footer>
+
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
+    crossorigin="anonymous"></script>
+  <script src="js/formulario.js"></script>
+</body>
+
+</html>
